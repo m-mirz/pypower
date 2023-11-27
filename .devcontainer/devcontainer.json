@@ -1,0 +1,12 @@
+{
+	"name": "pypower",
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+		  "extensions": ["ms-python.python"]
+		}
+	  },
+}
